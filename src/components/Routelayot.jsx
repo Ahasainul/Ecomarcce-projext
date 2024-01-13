@@ -1,12 +1,14 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import Futter from './Futter'
+import Naver from './Naver'
 
 const Routelayot = () => {
   return (
    <>
-<div className=""> <h1>hy</h1></div>
+<Naver/>
 <Outlet/>
-<div className=""> <h1>hlw</h1></div>
+<Futter/>
    
    </>
   )

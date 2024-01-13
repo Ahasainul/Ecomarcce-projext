@@ -16,6 +16,7 @@ export default {
         'bg':'#F5F5F3',
         'bannar':'#D8D8D8',
         'ptag':'#6D6D6D',
+        'clk':'#F3F3F3',
         
       },
       backgroundImage: {
