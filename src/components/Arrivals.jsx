@@ -118,7 +118,7 @@ const Arrivals = () => {
     </Container>
     <Container className='pb-[50px]'>
         <Text className='text-[39px] mb-[44px] font-bold' text='Our Bestsellers'/>
-        <div className=" flex gap-4">
+        <div className=" flex space-x-4">
         <div className="w-[25%] relative group ">
             <Image className='w-full' src={bag} alt='clk.png'/>
             <Button  className='text-white  absolute top-[20px] left-[26px] px-[32px] py-[9px] text-[14px] font-bold bg-black' btnName='New'/>

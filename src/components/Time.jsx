@@ -20,7 +20,7 @@ const Time = () => {
             <div className="">
                 <Text className='mt-[68px] text-[38px] font-bold mb-[30px]' text={'Phone of the year'}/>
                 <p className='mb-[40px] text-sm pr-[350px] text-hadding'>Lorem Ipsum is simply dummy text of the printing and typesetting industry orem Ipsum..</p>
-                <Button className='text-white px-[50px] py-[15px] text-[16px] font-bold bg-black' btnName='Shop Now' />
+                <Button className='text-white px-[50px] py-[15px] hover:bg-white hover:text-black   hover:shadow-2xl text-[16px] font-bold bg-black' btnName='Shop Now' />
             </div>
         </div>
     </div>

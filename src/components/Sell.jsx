@@ -18,7 +18,7 @@ const Sell = () => {
                         <div className=" absolute left-[65px] bottom-[20px] ">
                             <h1 className='text-[49px] font-bold'>Phones Sale</h1>
                             <p className='pt-[33px] text-[16px] text-ptag pb-[40px] flex items-center'>Up to <span className='font-bold text-black text-[40px] px-[5px]'>30%</span> sale for all furniture items!</p>
-                            <Button className='text-white px-[50px] py-[15px] text-[16px] font-bold bg-black' btnName='Shop Now' />
+                            <Button className='text-white px-[50px] py-[15px] text-[16px] font-bold hover:bg-white hover:text-black   hover:shadow-2xl bg-black' btnName='Shop Now' />
                         </div>
 
                     </div>

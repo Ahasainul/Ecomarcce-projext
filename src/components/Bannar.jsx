@@ -14,7 +14,7 @@ const Bannar = () => {
             <h1 className='text-[49px] font-bold'>Final Offer</h1>
             <h4 className='relative after:absolute top-[70px] left-[-136px] font-medium'>01</h4>
             <p className='pt-[33px] text-[16px] text-ptag pb-[50px] flex items-center'>Up to <span className='font-bold text-black text-[40px] px-[5px]'>50%</span> sale for all furniture items!</p>
-            <Button className='text-white px-[50px] py-[15px] text-[16px] font-bold bg-black' btnName='Shop Now' />
+            <Button className='text-white   hover:bg-white hover:text-black   hover:shadow-2xl px-[50px] py-[15px] text-[16px] font-bold bg-black' btnName='Shop Now' />
           </div>
         </Container>
 

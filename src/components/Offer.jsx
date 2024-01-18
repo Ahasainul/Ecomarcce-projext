@@ -17,7 +17,7 @@ const Offer = () => {
                     <div className="w-[25%]">
                         <div className="relative group">
                             <Image className='w-full' src={cap} alt='cap.png' />
-                            <Button className='text-white  absolute top-[20px] left-[26px] px-[32px] py-[9px] text-[14px] font-bold bg-black' btnName='New' />
+                            <Button className='text-white   absolute top-[20px] left-[26px] px-[32px] py-[9px] text-[14px] font-bold bg-black' btnName='New' />
                             <div className="h-[156px] bg-white absolute bottom-0 left-0 w-full invisible transition-all group-hover:visible ">
                                 <div className=" flex space-x-3  justify-end items-center mr-[30px] pt-[25px] mb-[21px]">
                                     <p className='text-hadding2 text-[16px] hover:font-semibold hover:text-black'>Add to Wish List</p>
@@ -110,7 +110,7 @@ const Offer = () => {
                     <div className="w-[25%]">
                         <div className="relative group">
                             <Image className='w-full' src={four} alt='cap.png' />
-                            <Button className='text-white  absolute top-[20px] left-[26px] px-[32px] py-[9px] text-[14px] font-bold bg-black' btnName='New' />
+                            <Button className='text-white   absolute top-[20px] left-[26px] px-[32px] py-[9px] text-[14px] font-bold bg-black' btnName='New' />
                             <div className="h-[156px] bg-white absolute bottom-0 left-0 w-full invisible transition-all group-hover:visible ">
                                 <div className=" flex space-x-3  justify-end items-center mr-[30px] pt-[25px] mb-[21px]">
                                     <p className='text-hadding2 text-[16px] hover:font-semibold hover:text-black'>Add to Wish List</p>

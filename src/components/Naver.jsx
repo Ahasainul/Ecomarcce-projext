@@ -19,7 +19,7 @@ const Naver = () => {
 
                         <Flex>
 
-                            <List className='list-none text-hadding2 text-sm hover:font-bold  active:hover:text-hadding   mr-[40px]' ManuName='Home' />
+                            <List className='list-none text-hadding2 text-sm hover:font-bold  active:hover:text-hadding    mr-[40px]'  ManuName='Home' />
                             <List className='list-none text-hadding2 text-sm hover:font-bold hover:text-hadding  pr-[40px]' ManuName='Shop' />
                             <List className='list-none text-hadding2 text-sm hover:font-bold hover:text-hadding  mr-[40px]' ManuName='About' />
                             <List className='list-none text-hadding2 text-sm hover:font-bold hover:text-hadding   mr-[40px]' ManuName='Contacts' />
