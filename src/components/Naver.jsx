@@ -5,6 +5,7 @@ import React from 'react'
 import Flex from './Flex'
 import Text from './Text'
 import Logo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 const Naver = () => {
     return (
@@ -19,7 +20,7 @@ const Naver = () => {
 
                         <Flex>
 
-                            <List className='list-none text-hadding2 text-sm hover:font-bold  active:hover:text-hadding    mr-[40px]'  ManuName='Home' />
+                            <List className='list-none text-hadding2 text-sm hover:font-bold  active:hover:text-hadding    mr-[40px]'   ManuName='Home' />
                             <List className='list-none text-hadding2 text-sm hover:font-bold hover:text-hadding  pr-[40px]' ManuName='Shop' />
                             <List className='list-none text-hadding2 text-sm hover:font-bold hover:text-hadding  mr-[40px]' ManuName='About' />
                             <List className='list-none text-hadding2 text-sm hover:font-bold hover:text-hadding   mr-[40px]' ManuName='Contacts' />
@@ -34,7 +35,7 @@ const Naver = () => {
                 <Container className=''>
                     <Flex>
                         <div className="w-[20%] flex items-center ">
-                        <i class="fa-solid fa-bars "></i>
+                        <i class="fa-solid fa-bars  "></i>
                         <Text className=' pl-2 text-sm text-hadding'  text={'Shop by Category'} />
                         </div>
                         <div className="w-[60%] flex justify-center ">
@@ -51,7 +52,6 @@ const Naver = () => {
                     </Flex>
                 </Container>
             </div>
-
 
         </>
     )
